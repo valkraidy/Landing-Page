@@ -1,0 +1,79 @@
+
+            <div class="box">
+                <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                <div class="text">
+                    <h4>Our handles</h4>
+                     <div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i>
+                        
+                    <a href="http://www.twitter.com/@val_kraidy">Twitter </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <br>
+ <div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i>
+  <a href="http://www.facebook.com">Facebook</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+ <div class="icon"><i class="fa fa-google" aria-hidden="true"></i>
+  <a href="http://www.google.com">Google</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <br>
+
+ <div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i>
+  <a href="http://www.instagram.com/@val_kraidy">Instagram</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <br>
+
+ <div class="icon"><i class="fa fa-github" aria-hidden="true"></i>
+  <a href="http://github.com">Github</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <br>
+ <div class="icon"><i class="fa fa-snapchat" aria-hidden="true"></i>
+  <a href="http://snapchart.com/@val_kraidy">Snapchat</a>
+  <br>
+   <div class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i>
+  <a href="http://linkedin.com/@val kraidy">Linkedin</a>
+        </div>
+    
+<br>
+
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full name</span>
+                        </div>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                            </div>
+                            <br>
+
+
+
+
+
+
+
+                            #89CFF9
+
+
+
+
+
+
+                            width: 100%;
+                            margin-top: 10px;
+                        }
+                        .contactform .inputBox input,
+                        .contactform .inputBox input textarea
+                        {
+                            width: 100%;
+                            padding: 5px 0;
+                            font-size: 16px;
+                            margin: 10px 0;
+                            border: none;
+                            border-bottom: 2px solid #333;
+                            outline: none;
+                        

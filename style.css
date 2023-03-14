@@ -9,113 +9,166 @@
 .contact
 {
     position: relative;
-    min-height: 50vh;
+    min-height: 100vh;
     padding: 50px 100px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    background: url(cute.jpg);
+    align-items: center;
+    flex-direction:column;
+    background: url(cutie.jpg);
     background-size: cover;
 
 }
 .contact .content
 {
+   
     max-width: 800px;
     text-align: center;
 
 }
-.contact .content
-{
-    font-size: 36px;
-    font-weight: 500;
-    color: black;
-
-
-}
-.contact .content
-
+.contact .content h2
 {
    
-    font-weight:300;
-    color: black;
-}
-.container
-{
-    width: 100;
-    display: flex;
-    justify-content:center;
-    align-content: center;
-    margin-top: 30px;
-}
-.container .contactInfomation
-{
-    width: 50;
-    display: flex;
-    flex-direction: column;
-}
-.container .contactInfomation .box
-{
-    position: relative;
-    padding: 20px 0;
+    font-size: 50px;
+    font-weight: 500;
+    color:#333;
+
 
 }
-.container .contactInfomation .box .icon
+.contact .content p
+
 {
-    min-width: 60;
-    height: 60;
-    background: black;
+   font-size: 25px;
+    font-weight:500;
+    color: black;
+}
+.Container
+{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50;
-    font-size: 20;
+    margin-top: 30px;
 }
-.container .contactInfomation .box .text
+.Container .ContactInfo
+{
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .ContactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+.container .ContactInfo .box.icon
+{
+    min-width: 30px;
+    height: 30px;
+    background:rgb(161, 210, 226);
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    border-radius: 10%;
+    font-size: 10px;
+}
+.container .ContactInfo .box .text
 {
     display: flex;
     margin-left: 20px;
-    font-size:   16;
+    font-size:   16px;
     color:black;
     flex-direction: column;
     font-weight: 300;
 }
-.container .contactInfomation .box .text h3
+.container .ContactInfo .box .text h3
 {
     font-weight: 500;
-    color: black;
+    color:black;
+
 
 }
-.contactform
+.contactForm
 {
-    width: 40%;
-    padding: 40;
-    background: whitesmoke;
+   width: 50%;
+   padding: 60px;
+   background: #3332;
+   
+
+    
 }
-.contactform h2
+.contactForm h2
 {
     font-size: 30px;
-    color: #333;
-    font-weight: 500;
-
+    font-style: normal;
+ color:black;
+ font-weight: 500;
 }
-.contactform .inputBox
+.contactForm .inputBox
 {
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
-.contactform .inputBox input
+.contactForm .inputBox input,
+.contactForm .inputBox input textarea
 {
+
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
     margin: 10px 0;
     border: none;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #89CFF9;
     outline: none;
+
+}
+.contactForm .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: 		black;
 
 
 }
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span
+{
+    color:black ;
+    font-size: 14px;
+    transform: translateY(-20px);
+    font-weight: 500;
+}
+
+.contactForm .inputBox input[type="Submit"]
+{
+    width: 50px;
+    background:	#89CFF9;
+    color:black;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+    
+
+
+
+
+
 
 
 
